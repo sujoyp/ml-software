@@ -81,3 +81,10 @@ From: ucr-singularity/cuda-9.0-base
     pip install --no-cache-dir pytube
     
     pip install --no-cache-dir youtube_dl
+    
+    #sublime
+    apt install apt-transport-https ca-certificates curl software-properties-common
+    curl -fsSL https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+    add-apt-repository "deb https://download.sublimetext.com/ apt/stable/"
+    apt update
+    apt install sublime-text
